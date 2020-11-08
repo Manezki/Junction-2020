@@ -1,0 +1,91 @@
+
+body {
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    font-family: Optima, sans-serif;
+}
+
+div {
+    text-align:center;
+}
+
+#page-title p {
+    font-style: italic;
+    color: #0f4880;
+}
+
+#page-title {
+    margin: auto;
+    width: 50%;
+    padding: 1em;
+}
+
+#main-container {
+    background: white;
+    width: 95%;
+    margin: auto;
+}
+
+article {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 1rem;
+    width: 50%;
+    background: #efefef;
+    border-radius: 10px;
+}
+
+#category {
+    cursor: pointer;
+}
+
+#category:hover {
+    background: #dddddd;
+}
+
+#category > #title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #545454;
+}
+
+#category > #num-reports {
+    color: #0f4880;
+    font-style: italic;
+}
+
+#category > #total-expenses {
+    color: #0f4880;
+    font-style: italic;
+}
+
+#category-summary > #average {
+    color: #0f4880;
+    font-style: italic;
+}
+
+#category-summary > #max-spending {
+    color: #0f4880;
+    font-style: italic;
+}
+
+#project-summary > #organizer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #545454;
+}
+
+
+#project-summary > #expenses {
+    color: #0f4880;
+    font-style: italic;
+}
+
+#category-plot-container {
+    padding: 1em;
+}
+
+#projects-container {
+    background: white;
+    width: 50%;
+    margin: auto;
+}
