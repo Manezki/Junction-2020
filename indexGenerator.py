@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
         report["haku_name"] = name
 
-    with open(op.join(op.dirname(__file__), "index.html"), "w+") as index:
+    with open(op.join(op.dirname(__file__), "pyIndex.html"), "w+") as index:
         index.write(HEADER)
         index.write(PAGE_TITLE)
 
